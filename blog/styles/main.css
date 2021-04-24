@@ -4,11 +4,9 @@
          color:blueviolet;
         }
         body {
-            background-color: mediumslateblue;
+            background-color: rgb(81, 62, 194);.
+            margin-bottom: 134px;
         }.
-        .topnav {
-            flex: auto;
-        }
      .topnav {
         background-color: rgba(117, 81, 214, 0.562);
         overflow: hidden;
