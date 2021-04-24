@@ -3,6 +3,9 @@
      h1 {
          color:blueviolet;
         }
+        body {
+            background-color: mediumslateblue;
+        }
      .topnav {
         background-color: rgba(117, 81, 214, 0.562);
         overflow: hidden;
