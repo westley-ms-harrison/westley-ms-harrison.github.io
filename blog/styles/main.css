@@ -5,6 +5,9 @@
         }
         body {
             background-color: mediumslateblue;
+        }.
+        div {
+            flex: auto;
         }
      .topnav {
         background-color: rgba(117, 81, 214, 0.562);
