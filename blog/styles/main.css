@@ -26,8 +26,8 @@
           display: block;
           height: auto;
           margin-top: 0px;
-          margin-left: auto;
+          margin-left: -250px;
           margin-right: auto;
-          transform: scale(0.7);
+          transform: scale(0.5);
       }
    </style>
