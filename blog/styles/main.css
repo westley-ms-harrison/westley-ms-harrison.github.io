@@ -1,12 +1,9 @@
 <style>
-     body {
-         background-color: turquoise;
-        }
      h1 {
          color:blueviolet;
         }
      .topnav {
-        background-color: #333;
+        background-color: rgba(117, 81, 214, 0.562);
         overflow: hidden;
       }
       .topnav a {
@@ -18,11 +15,19 @@
         font-size: 17px;
       }
       .topnav a:hover {
-        background-color: #ddd;
+        background-color: rgb(211, 35, 196);
         color: black;
       }
       .topnav a.active {
         background-color: #4CAF50;
         color: white;
+      }
+      .self {
+          display: block;
+          height: auto;
+          margin-top: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          transform: scale(0.7);
       }
    </style>
