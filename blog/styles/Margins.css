@@ -32,4 +32,14 @@ body {
       color: #be95c4;
       text-align: center;
   }
+  .Margins {
+    margin: auto;
+    width: 60%;
+      display: block;
+      height: auto;
+      margin-top: 0px;
+      margin-left:auto;
+      margin-right: auto;
+  }
+  }
 </style>
