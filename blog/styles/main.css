@@ -11,12 +11,12 @@
         overflow: auto;
       }
       .topnav a {
-        float: center;
+        float: none;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 25px;
       }
       .topnav a:hover {
         background-color: rgb(211, 35, 196);
