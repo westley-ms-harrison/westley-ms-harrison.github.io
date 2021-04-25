@@ -1,5 +1,53 @@
 <style>
-header {
-  color: #1b2a41;
+
+body {
+  background-color:#dce1e9:
+}.
+.topnav {
+background-color: rgba(117, 81, 214, 0.562);
+overflow: auto;
+}
+.topnav a {
+float:inline-start;
+color: #d4afb9;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+background-color: rgb(211, 35, 196);
+color: black;
+}
+.topnav a.active {
+background-color:burlywood;
+color:#d4afb9;
+}
+
+.reflections-list {
+  background-color:azure:
+overflow: auto;
+}
+.reflections-list a {
+  float:inline-start;
+color: #d4afb9;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bolder;
+}
+.reflections-list a:hover {
+  background-color: rgb(211, 35, 196);
+color: black;
+}
+.reflections-list a.active {
+  background-color: #4CAF50;
+  color:#d4afb9;
+}
+.header-text {
+  color: rgb(202, 169, 141);
+  text-align: center;
+  font-weight: bold;
 }
   </style>

@@ -23,4 +23,13 @@ body {
   background-color: #4CAF50;
   color:#d4afb9;
   }
+  p {
+    color: rgb(163, 135, 110);
+    text-align: center;
+    font-weight: bold;
+  }
+  h1 {
+      color: #be95c4;
+      text-align: center;
+  }
 </style>
