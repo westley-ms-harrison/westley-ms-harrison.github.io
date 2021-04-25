@@ -8,10 +8,10 @@
         }.
      .topnav {
         background-color: rgba(117, 81, 214, 0.562);
-        overflow: hidden;
+        overflow: auto;
       }
       .topnav a {
-        float: left;
+        float: center;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
