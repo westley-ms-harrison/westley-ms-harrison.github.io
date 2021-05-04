@@ -7,7 +7,7 @@ body {
   background-color: rgba(117, 81, 214, 0.562);
   overflow: auto;
   }
-  .topnav a {
+.topnav a {
   float:inline-start;
   color: #d4afb9;
   text-align: center;
@@ -15,27 +15,27 @@ body {
   text-decoration: none;
   font-size: 17px;
   }
-  .topnav a:hover {
+.topnav a:hover {
   background-color: rgb(211, 35, 196);
   color: black;
   }
-  .topnav a.active {
+.topnav a.active {
   background-color: #4CAF50;
   color:#d4afb9;
   }
-  h1 {
-      color: #be95c4;
-      text-align: center;
+h1 {
+  color: #be95c4;
+  text-align: center;
   }
-  .Main-article {
-    color: rgb(163, 135, 110);
-    text-align: center;
-    font-weight: bold;  
+.Main-article {
+  color: rgb(163, 135, 110);
+  text-align: center;
+  font-weight: bold;  
   }
-  h2 {
-        text-align: center;
-        color: #c7b8ea;
-        font-style: italic;
+h2 {
+  text-align: center;
+  color: #c7b8ea;
+  font-style: italic;
   }
 
   </style>

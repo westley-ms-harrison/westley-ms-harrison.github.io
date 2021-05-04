@@ -7,121 +7,121 @@
   <link href="/blog/styles/javascript-dom.css" rel="stylesheet">
 </head>
 <body>
-<header>
-  <div class="topnav">
-    <nav class="topnav">
-      <a class="home" href="/index.html">Home</a>
-      <a href="/blog/blog/blog.html">Blog</a>
-      </div> 
-</header>
-<br>
-<br>
-<br>
-<section class="Article">
-  <h1 class="Header-text">Javascript DOM</h1>
-</section>
+  <header>
+    <div class="topnav">
+      <nav class="topnav">
+        <a class="home" href="/index.html">Home</a>
+        <a href="/blog/blog/blog.html">Blog</a>
+        </div> 
+  </header>
+  <br>
+  <br>
+  <br>
+  <section class="Article">
+    <h1 class="Header-text">Javascript DOM</h1>
+  </section>
 
 <section class="Article">
   <div class="Main-article">
     <p>
-      This blog post is going to describe and try to explain some basic tool that are used within web development and how each of these progrems allow us to shape and create pages on the web.
-      so to start off lets talk about HTML and CSS. What are these and what do they do?
+        This blog post is going to describe and try to explain some basic tool that are used within web development and how each of these progrems allow us to shape and create pages on the web.
+        so to start off lets talk about HTML and CSS. What are these and what do they do?
       <br>
       <br>
-      One way to explain this is with an analogy: a web page is kind of like a baby, it is gorwn and influenced by a number of factors.
-      HTML is the DNA or genes of the baby, the building blocks that help sturcture what it is we want to make.
+        One way to explain this is with an analogy: a web page is kind of like a baby, it is gorwn and influenced by a number of factors.
+        HTML is the DNA or genes of the baby, the building blocks that help sturcture what it is we want to make.
       <br>
-      CSS is how the baby will look from skin color to hair color and even eye color. When the 2 are put together we get a basic template of a web page.
+        CSS is how the baby will look from skin color to hair color and even eye color. When the 2 are put together we get a basic template of a web page.
       <br>
-      Another tool we use is called Javascript which allows us to create different tools and activites for our web page, kind of like giving a baby a toy. In this case we the users would be the baby and the web page is the toy, and Javascript is the person giving us the toy.
-      <br>
-      <br>
-      <section>
-          <div>
-      <h2 class="Semi-header">Control Flow and Loops</h2>
-      </div>
-    </section>
-      <br>
-     Some of the things Javascript uses to create these fun "toys" for us are 'Control Flow' and 'Loops'.
-      <br>
-      <br>
-     A control flow is kind of like a shopping list, where you carefully collect each item checking them off the list as you go.
-      <br>
-      but a loop is more like having to wake up and go to school or work every day. Just like a control flow, Loops also work from a list
-      but a loop will continue to go through the list over and over again until something on the list changes. Like going to work everyday until a public holiday comes around to give you some time off.
+        Another tool we use is called Javascript which allows us to create different tools and activites for our web page, kind of like giving a baby a toy. In this case we the users would be the baby and the web page is the toy, and Javascript is the person giving us the toy.
       <br>
       <br>
       <section>
-          <div>
-      <h2 class="Semi-header">The DOM</h2>
-      </div>
-    </section>
+        <div>
+          <h2 class="Semi-header">Control Flow and Loops</h2>
+        </div>
+      </section>
       <br>
-     Another tool that Javascrip uses is a Document Object Model or DOM for short. Now "what is a DOM and why should i care?", i am gonna pretend i heard you say.
-     well in simple terms its a tree with a whole lot of brunches. Now i know that doesn't explain anything but let me try my best to clarify.
-      <br>
-      <br>
-      The DOM is a diagram that looks kind of like this:
+        Some of the things Javascript uses to create these fun "toys" for us are 'Control Flow' and 'Loops'.
       <br>
       <br>
-      <img class="DOM-Tree" src="/blog/images/DOM.png" alt="example of a DOM tree">
+        A control flow is kind of like a shopping list, where you carefully collect each item checking them off the list as you go.
+      <br>
+        but a loop is more like having to wake up and go to school or work every day. Just like a control flow, Loops also work from a list
+        but a loop will continue to go through the list over and over again until something on the list changes. Like going to work everyday until a public holiday comes around to give you some time off.
       <br>
       <br>
-      It lets us see all the different folders that a web page uses and how they interact.
-      Another cool thing we use the DOM for is to interact with different aspects of our code.
+      <section>
+        <div>
+          <h2 class="Semi-header">The DOM</h2>
+        </div>
+      </section>
+      <br>
+        Another tool that Javascrip uses is a Document Object Model or DOM for short. Now "what is a DOM and why should i care?", i am gonna pretend i heard you say.
+        well in simple terms its a tree with a whole lot of brunches. Now i know that doesn't explain anything but let me try my best to clarify.
+      <br>
+      <br>
+        The DOM is a diagram that looks kind of like this:
+      <br>
+      <br>
+        <img class="DOM-Tree" src="/blog/images/DOM.png" alt="example of a DOM tree">
+      <br>
+      <br>
+        It lets us see all the different folders that a web page uses and how they interact.
+        Another cool thing we use the DOM for is to interact with different aspects of our code.
       <br>
       Now there are different kinds of DOMS or Document Object Models but the one i'm choosing to focus on is the HTML DOM, which lets us create things like Control Flows and Loops.
       <br>
       <br>
       <section>
-          <div>
-      <h2 class="Semi-header">Interacting with the DOM</h2>
-      </div>
-    </section>
-      <br>
-      Lets say i wanted to make changes to an HTML element like all the different paragraphs on this page, how would i do that?
-      <br>
-      while first you give the paragraph element or p in HTML, a class name like idk pineapples. What this does is it links all of the paragraphs with the same class name togther in a little chain so that we can change all of them together.
-      <br>
-      <br>
-      now lets say i wanted to create a loop while first i would need that list right? and that is where the HTML DOM comes into play by allowing us to create an array (i'll be talking more about this later so don't worry about it for now).
-      and the way we access this array is with a little command called document.getElementsByClass(“name-of-class”) which collects all the elements with our class name aka 'pineapples' and gives it back to us as an array or our list.
-      <br>
-      <br>
-      <section>
-          <div>
-      <h2 class="Semi-header">Differences between Array's and Object's</h2>
-      </div>
-    </section>
-      <br>
-      Now you must be thinking "that's really cool but what if instead of a list i just want to interact with a picture or video?" while i'm glad you asked reader, that's where objects come into play but before i talk about that lets finish talking about array's like i promised.
-      <br>
-      <br>
-      An Array is esentially sets of data between [square, brackets] separated by commas. which is a great way to store collections and lists that can be accessed by their position within the array. To access the array we use zero-based indexing, which means the first item in an array is 0, the second item is 1, the third is 2 etc.
-      <br>
-      <br>
-     Where as an Object is used to represent a “thing” in your code and are expressed by { curly brackets}. That could be a person, a car, a building, a book, a character in a game — basically anything that is made up or can be defined by a set of characteristics.
-     In objects, these characteristics are called properties that consist of a key and a value.
-      <br>
-      <br>
-      <section>
-          <div>
-              <h2 class="Semi-header">What are Functions and there uses</h2>
-          </div>
+        <div>
+          <h2 class="Semi-header">Interacting with the DOM</h2>
+        </div>
       </section>
       <br>
-      "so that's how you access all the information but how do you get it to do something?", well my dear reader that is where something called 'Functions' come into play.
+        Lets say i wanted to make changes to an HTML element like all the different paragraphs on this page, how would i do that?
       <br>
-      A function as the name implies is what allows our web page to perform a task such as telling a button to let us click it and make something happen,
-      or in other terms 'return a value'.
-      <br>
-      <br>
-      "but why do we use functions?", because my sweet reader it allows us to perform the same task without having to constantly rewrite code, it also allows us to use one code to create many different out comes.
+        while first you give the paragraph element or p in HTML, a class name like idk pineapples. What this does is it links all of the paragraphs with the same class name togther in a little chain so that we can change all of them together.
       <br>
       <br>
-      like if i press a button once it turns blue, if i press the same button again it turns red but if i double click the button it becomes purple. These are all made possible because of the function code, sounds pretty useful am i right?.
+        now lets say i wanted to create a loop while first i would need that list right? and that is where the HTML DOM comes into play by allowing us to create an array (i'll be talking more about this later so don't worry about it for now).
+        and the way we access this array is with a little command called document.getElementsByClass(“name-of-class”) which collects all the elements with our class name aka 'pineapples' and gives it back to us as an array or our list.
       <br>
-      An imprtant thing to remember is that there are many different functions and differnt ways to use each of them which can get confusing. So my advice is to just play with all of them to help you understand their uses, now go play.
+      <br>
+      <section>
+        <div>
+          <h2 class="Semi-header">Differences between Array's and Object's</h2>
+        </div>
+      </section>
+      <br>
+        Now you must be thinking "that's really cool but what if instead of a list i just want to interact with a picture or video?" while i'm glad you asked reader, that's where objects come into play but before i talk about that lets finish talking about array's like i promised.
+      <br>
+      <br>
+        An Array is esentially sets of data between [square, brackets] separated by commas. which is a great way to store collections and lists that can be accessed by their position within the array. To access the array we use zero-based indexing, which means the first item in an array is 0, the second item is 1, the third is 2 etc.
+      <br>
+      <br>
+        Where as an Object is used to represent a “thing” in your code and are expressed by { curly brackets}. That could be a person, a car, a building, a book, a character in a game — basically anything that is made up or can be defined by a set of characteristics.
+        In objects, these characteristics are called properties that consist of a key and a value.
+      <br>
+      <br>
+      <section>
+        <div>
+            <h2 class="Semi-header">What are Functions and there uses</h2>
+        </div>
+      </section>
+      <br>
+        "so that's how you access all the information but how do you get it to do something?", well my dear reader that is where something called 'Functions' come into play.
+      <br>
+        A function as the name implies is what allows our web page to perform a task such as telling a button to let us click it and make something happen,
+        or in other terms 'return a value'.
+      <br>
+      <br>
+        "but why do we use functions?", because my sweet reader it allows us to perform the same task without having to constantly rewrite code, it also allows us to use one code to create many different out comes.
+      <br>
+      <br>
+        like if i press a button once it turns blue, if i press the same button again it turns red but if i double click the button it becomes purple. These are all made possible because of the function code, sounds pretty useful am i right?.
+      <br>
+        An imprtant thing to remember is that there are many different functions and differnt ways to use each of them which can get confusing. So my advice is to just play with all of them to help you understand their uses, now go play.
     </p>
   </div>
 </section>

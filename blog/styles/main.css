@@ -1,45 +1,47 @@
 <style>
 
 
-body {
-            background-color:#dce1e9:
-        }.
-     .topnav {
-        background-color: rgba(117, 81, 214, 0.562);
-        overflow: auto;
-      }
-      .topnav a {
-        float:inline-start;
-        color: #d4afb9;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      .topnav a:hover {
-        background-color: rgb(211, 35, 196);
-        color: black;
-      }
-      .topnav a.active {
-        background-color: #4CAF50;
-        color:#d4afb9;
-      }
-      .self {
-        margin: auto;
-        width: 60%;
-        border: 3px solid;
-          display: block;
-          height: auto;
-          margin-top: 0px;
-          margin-left:auto;
-          margin-right: auto;
-      }
-     h1 {
-       text-align: center;
-       color: #be95c4;
+
+  .topnav {
+    background-color: rgba(117, 81, 214, 0.562);
+    overflow: auto;
      }
-     p {
-      color: #be95c4;
-      text-align: center;
+  .topnav a {
+    float:inline-start;
+    color: #d4afb9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  .topnav a:hover {
+    background-color: rgb(211, 35, 196);
+    color: black;
+    }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color:#d4afb9;
+    }
+  .self {
+    margin: auto;
+    width: 60%;
+    border: 3px solid;
+    display: block;
+    height: auto;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right: auto;
+    }
+  h1 {
+    text-align: center;
+    color: #be95c4;
      }
-   </style>
+  p {
+    color: #be95c4;
+    text-align: center;
+    }
+  body {
+    background-color:#dce1e9:
+    }.
+
+</style>
