@@ -1,0 +1,40 @@
+<style>
+
+body {
+  background-color:#dce1e9:
+}.
+.topnav {
+  background-color: rgba(117, 81, 214, 0.562);
+  overflow: auto;
+  }
+  .topnav a {
+  float:inline-start;
+  color: #d4afb9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  .topnav a:hover {
+  background-color: rgb(211, 35, 196);
+  color: black;
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color:#d4afb9;
+  }
+  .Main-article {
+    color: rgb(163, 135, 110);
+    text-align: center;
+    font-weight: bold;
+  }
+  h1 {
+      text-align: center;
+      color: #be95c4;
+  }
+   h2 {
+    text-align: center;
+    color: #c7b8ea;
+    font-style: italic;
+}
+</style>
