@@ -32,4 +32,14 @@ h1 {
   text-align: center;
   color: #be95c4;
 }
+h2 {
+    text-align: center;
+    color: #de95e4ab;
+}
+h3 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgba(169, 124, 243, 0.651);
+}
 </style>
