@@ -29,28 +29,11 @@ h1 {
   text-align: center;
   color: #be95c4;
   }
+h2 {
+    text-align: center;
+    color: #de95e4ab;
+}  
 body {
   background-color:#dce1e9:
-}.
-.header {
-    text-align: center;
-    color: #c7b8ea;
-    }
-.techniques {
-    text-align: center;
-    color:#b3a293;
-}
-.reflections {
-    text-align: center;
-    color:#b3a293;  
-}
-.story {
-    text-align: center;
-    color:#b3a293;   
-}
-h3 {
-    text-align: center;
-    font-style: italic;
-    font-weight: bolder;
 }
 </style>
